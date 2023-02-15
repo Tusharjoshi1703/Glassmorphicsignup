@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+
+}
+.outerbox{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, #3ed8ff,#a8f5ff);
+}
+.innerbox{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-40%);
+    padding: 10px 40px ;
+    background:linear-gradient(to top left,#ffffffff,#ffffff33);
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
+    box-shadow : 2px 2px 5px #2773a5;
+    z-index : 2;
+    border: 1px solid #ccc;
+}
+h1{
+    font-size: 2.5rem;
+    color: black;
+}
+.signup{
+    margin: 20px  0;
+}
+.signup p{
+    margin: 10px 0;
+}
+.signup p label{
+    display: block;
+    font-weight: bold;
+}
+.signup p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #cccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+}
+.signup p input[type="submit"]{
+    background-color: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+#submit:hover{
+    background-color: #174463;
+}
+.ffooter  p {
+
+font-weight: bold;
+text-align: center;
+padding-bottom: 10px;
+}
+.ffooter p a{
+    color: #2773a5;
+    padding-top: 10px;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to right,#ffffff33,#ffffffff);
+    position:absolute;
+
+}
+.c1{
+    top: 100px;
+    left: 40px;
+}
+.c2{
+    bottom: 100px;
+    right: 50px;
+    background: linear-gradient(to left,#ffffff33,#ffffffff);
+}
